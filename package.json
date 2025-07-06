@@ -1,0 +1,26 @@
+{
+  "name": "protractor-cucumber-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx protractor conf/protractor.conf.js -- ",
+    "test:feature": "set FEATURE=%npm_config_feature% && npx protractor conf/protractor.conf.js",
+    "test:tag": "set TAG=%npm_config_tag% && npx protractor conf/protractor.conf.js",
+    "tag": "cross-env npx protractor conf/protractor.conf.js --tags "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^138.0.0",
+    "cross-env": "^7.0.3",
+    "geckodriver": "^5.0.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}
