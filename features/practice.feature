@@ -11,6 +11,6 @@ Feature: Login page functionality
     Then user selects products
     | productName    |Model|
       | iphone X       |pro|
-      | Samsung Note 8 |plus|
+      | Samsung Note 8 |plus max|
 
 
