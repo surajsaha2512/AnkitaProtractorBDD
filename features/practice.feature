@@ -12,5 +12,5 @@ Feature: Login page functionality
     | productName    |Model|
       | iphone 12       |xhz|
       | Samsung Note 10 |abc|
-      |Realme|10|
+      |Realme|12|
 
