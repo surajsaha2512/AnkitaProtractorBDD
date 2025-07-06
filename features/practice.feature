@@ -10,7 +10,7 @@ Feature: Login page functionality
     Given user is on shop page
     Then user selects products
     | productName    |Model|
-      | iphone X       |xhz|
-      | Samsung Note 8 |abc|
+      | iphone 12       |xhz|
+      | Samsung Note 10 |abc|
 
 
